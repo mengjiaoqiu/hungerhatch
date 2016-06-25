@@ -29,7 +29,7 @@
 body {color:#333;font-family: 'Coming Soon', cursive !important;font-weight: bold !important;background: #ffffff; -webkit-font-smoothing:antialiased;}
 
 a{color:#00a9c6; text-decoration:none;}
-a:hover{color:#666;}
+a:hover{color:#21b537;}
 .btn,a,.btn:hover,a:hover {
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
@@ -49,11 +49,11 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .spacer{padding: 1em 0;}
 
-.btn{border:none;border-radius: 0;padding: 1em 4em;background: rgba(0,0,0,0.5);text-transform: uppercase;}
+.btn{color: #00a9c6;border:none;border-radius: 0;padding: 1em 4em;background: rgba(0,0,0,0.5);text-transform: uppercase;}
 .btn:hover,.btn:active{color: #fff;}
-.btn-default{color: #ccc;border: 1px solid #aaa;}
+.btn-default{color: #00a9c6;border: 1px solid #aaa;}
 .btn-default:hover,.btn-default:active{background: rgba(0,0,0,0.8);}
-.btn-primary{color: #fff;background:#666;width: 100%;outline: none;}
+.btn-primary{color: #00a9c6;background:#666;width: 100%;outline: none;}
 .btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#333;box-shadow: none;}
 
 .navbar {padding:0;}
@@ -128,6 +128,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .footer{background-color: #d5151f; color: #ffffff; font-size: 1em;color: #ffffff;}
 .footer a{color: #ffffff;margin: 0 1em; }
+.footer a:hover{color:#3b5998;}
 
 .gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
 .gototop i{line-height: 0.5em;}
